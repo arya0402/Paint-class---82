@@ -41,7 +41,7 @@ function my_mousemove(e) {
         
         console.log("current position of x = " + current_position_of_mouse_x + " current position of y = " + current_position_of_mouse_y);
         ctx.lineTo(current_position_of_mouse_x,current_position_of_mouse_y);
-        ctx.stroke();
+        
     }
 
     last_position_of_x = current_position_of_mouse_x;
